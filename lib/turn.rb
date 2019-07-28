@@ -12,10 +12,6 @@ end
 
 def move(board, input_to_index, value="X")
   board[input_to_index] = value
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-   def update_array_at_with(board, input_to_index, value="X")
-     board[input_to_index] = value
-  end
 end
 
 def valid_move?(board, index)
